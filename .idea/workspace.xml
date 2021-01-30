@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7328a18f-22dd-4590-8058-5935941c7238" name="Default Changelist" comment="" />
+    <list default="true" id="7328a18f-22dd-4590-8058-5935941c7238" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symyoutube.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symyoutube.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +161,7 @@
       <updated>1612015362288</updated>
       <workItem from="1612015368071" duration="5691000" />
       <workItem from="1612032260703" duration="4595000" />
-      <workItem from="1612046695949" duration="2279000" />
+      <workItem from="1612046695949" duration="2603000" />
     </task>
     <servers />
   </component>
