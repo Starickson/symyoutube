@@ -1,8 +1,8 @@
-langauge: php
+language: php
 php:
   - '7.4.11'
   - '7.4.12'
 
 script:
   - composer install
-  - vendor/bin/phpunit
+  - vendor/bin/simple-phpunit
