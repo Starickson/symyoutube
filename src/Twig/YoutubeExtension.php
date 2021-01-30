@@ -27,6 +27,7 @@ class YoutubeExtension extends AbstractExtension
             // parameter: ['is_safe' => ['html']]
             // Reference: https://twig.symfony.com/doc/2.x/advanced.html#automatic-escaping
             new TwigFilter('youtube_thumbnail', [$this, 'youtubeThumbnail']),
+            new TwigFilter('youtube_player', [$this, 'youtubePlayer']),
         ];
     }
 
@@ -37,9 +38,32 @@ class YoutubeExtension extends AbstractExtension
         ];
     }
 
+    /**
+     * @param $value
+     * @return string
+     * @throws \RicardoFiorani\Exception\ServiceNotAvailableException
+     * 30/01/2021
+     * Extension qui envoie une miniature
+     * @author : Eric MAYEMBA
+     */
     public function youtubeThumbnail($value)
     {
         $video=$this->youtubeParser->parse($value);
         return $video->getLargestThumbnail();
     }
+
+    /**
+     * @param $value
+     * @return string
+     * @throws \RicardoFiorani\Exception\ServiceNotAvailableException
+     * 30/01/2021
+     * Extension qui envoie un player youtube
+     * @author : Eric MAYEMBA
+     */
+    public function youtubePlayer($value)
+    {
+        $video = $this->youtubeParser->parse($value);
+        return $video->getEmbedCode('100%', 500, true, true);
+    }
+
 }
