@@ -14,7 +14,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class YoutubeController extends AbstractController
 {
     /**
-     * @Route("/", name="app-home")
+     * @Route("/", name="app_home")
      */
     public function index(Request $request,EntityManagerInterface $entityManager,YoutubeRepository $youtuberepository): Response
     {
@@ -24,7 +24,7 @@ class YoutubeController extends AbstractController
         if($form->isSubmitted() && $form->isValid()){
             $entityManager->persist($youtube);
             $entityManager->flush();
-            return $this->redirectToRoute('app-home');
+            return $this->redirectToRoute('app_home');
         }
         return $this->render('youtube/index.html.twig', [
             'form' =>$form->createView(),
