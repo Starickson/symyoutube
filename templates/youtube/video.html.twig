@@ -6,7 +6,7 @@
 {% block body %}
 
     <h2>{{ name }}</h2>
-     {# youtube player retourne un code html d'où le filtre raw pour ne pas filtrer le code htmm mais l'interpreter  #}
+     {# youtube player retourne un code html d'où le filtre raw pour ne pas filtrer le code html mais l'interpreter  #}
     <div>{{ url|youtube_player|raw }}</div>
 
 {% endblock %}

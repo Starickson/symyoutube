@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7328a18f-22dd-4590-8058-5935941c7238" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/youtube/video.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/youtube/video.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php-getting-started" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -161,6 +162,7 @@
       <workItem from="1612015368071" duration="5691000" />
       <workItem from="1612032260703" duration="4595000" />
       <workItem from="1612046695949" duration="2936000" />
+      <workItem from="1612080914056" duration="2432000" />
     </task>
     <servers />
   </component>
@@ -172,10 +174,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1329" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1612034597888" />
-    <state x="938" y="231" key="FileChooserDialogImpl" timestamp="1612016135517">
+    <state x="938" y="231" key="FileChooserDialogImpl" timestamp="1612081664443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="938" y="231" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612016135517" />
+    <state x="938" y="231" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612081664443" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1612019762728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
